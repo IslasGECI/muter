@@ -11,7 +11,8 @@ mutants:
 La ayuda del `mutmut` es la siguiente:
 
 ```bash
-mutmut --help
+$ mutmut --help
+
 Usage: mutmut [OPTIONS] [COMMAND] [ARGUMENT] [ARGUMENT2]
 
 commands:
