@@ -8,3 +8,9 @@ tests:
 
 testthat:
 	Rscript -e "testthat::test_dir('tests/testthat/', report = 'summary', stop_on_failure = TRUE)"
+
+mutants:
+	muter
+
+install:
+	cp ./src/muter /usr/bin
